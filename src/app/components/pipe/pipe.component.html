@@ -1,0 +1,10 @@
+<div>
+  <h3>{{user.username | uppercase}}</h3>
+  <ul>
+    <li>Nome: {{user.name | firstUpper}}</li>
+    <li>Cognome: {{user.surname | firstUpper}}</li>
+    <li>Età: {{user.yob | yobToAge}}</li>
+    <li>Descrizione: {{user.description | truncDescription : 50}}</li>
+  </ul>
+</div>
+
