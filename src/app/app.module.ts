@@ -8,7 +8,8 @@ import { DirectiveComponent } from './components/directive/directive.component';
 import { FirstUpperPipe } from './pipes/first-upper/first-upper.pipe';
 import { TruncDescriptionPipe } from './pipes/trunc-description/trunc-description.pipe';
 import { YobToAgePipe } from './pipes/yob-to-age/yob-to-age.pipe';
-import { SpecialButtonDirective } from './directives/special-button.directive';
+import { SpecialButtonDirective } from './directives/special-button/special-button.directive';
+import { UnlessDirective } from './directives/unless/unless.directive';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SpecialButtonDirective } from './directives/special-button.directive';
     FirstUpperPipe,
     YobToAgePipe,
     TruncDescriptionPipe,
-    SpecialButtonDirective
+    SpecialButtonDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
